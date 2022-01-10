@@ -1,0 +1,264 @@
+main {
+    background: hsl(0, 100%, 74%) url(/images/bg-intro-mobile.png);
+    width: 375px;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
+
+.container__description {
+
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.container__description-title {
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.container__description-note {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.container__try-btn {
+    line-height: 1.8;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 15px 80px;
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+    margin-bottom: 23px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container__try-btn span {
+    font-weight: 700;
+}
+
+.form__container {
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 60px;
+}
+
+
+.container__form-btn {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+}
+
+.container__form-input {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 12px;
+    display: flex;
+    height: 50px;
+}
+
+.container__form-input--active {
+    border: 1px solid hsl(0, 100%, 74%);
+}
+
+.inp {
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.inp::placeholder {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.inp:focus {
+    outline: none;
+}
+
+.error__icon {
+    display: none;
+}
+
+.error__icon--active {
+    display: block;
+}
+
+.container__form-btn {
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.container__form-disclaimer {
+    color: hsl(246, 25%, 77%);
+    line-height: 1.5;
+    font-size: 12px;
+    padding: 0 20px;
+}
+
+.container__form-disclaimer a {
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+}
+
+.container__form-disclaimer a:visited {
+    color: hsl(0, 100%, 74%);
+}
+
+.alert {
+    color: hsl(0, 100%, 74%);
+    width: fit-content;
+    font-size: 12px;
+    display: none;
+}
+
+.fName-error {
+    position: absolute;
+    left: 61px;
+    top: 607px;
+    display: block;
+}
+
+.lName-error{
+    position: absolute;
+    left: 61px;
+    top: 673px;
+    display: block;
+}
+
+.email-error{
+    position: absolute;
+    left: 61px;
+    top: 740px;
+    display: block;
+}
+.pass-error{
+    position: absolute;
+    left: 61px;
+    top: 805px;
+    display: block;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+@media screen and (min-width:900px) {
+    main {
+        background: hsl(0, 100%, 74%) url(/images/bg-intro-desktop.png);
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 68px 92px;
+    }
+
+    .container {
+        display: flex;
+        padding: 0;
+    }
+
+    .container__description {
+
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .container__description-title {
+        font-size: 3rem;
+    }
+
+    .container__description-note {
+        font-size: .9rem;
+        line-height: 1.5;
+        padding-right: 90px;
+    }
+
+    .second__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .form__container {
+        width: 540px;
+        padding: 50px;
+        background: white;
+
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 6px 0 rgba(0, 0, 0, 0.2);
+        margin-bottom: 60px;
+
+    }
+
+    .container__form-disclaimer {
+        font-size: 11px;
+    }
+
+    .alert {
+        color: hsl(0, 100%, 74%);
+        width: fit-content;
+        bottom: 2px;
+        font-size: 12px;
+        display: none;
+    }
+
+    .fName-error {
+        position: absolute;
+        left: 713px;
+        top: 253px;
+        display: block;
+    }
+
+    .lName-error{
+        position: absolute;
+        left: 713px;
+        top: 319px;
+        display: block;
+    }
+
+    .email-error{
+        position: absolute;
+        left: 713px;
+        top: 385px;
+        display: block;
+    }
+    .pass-error{
+        position: absolute;
+        left: 713px;
+        top: 451px;
+        display: block;
+    }
+}
