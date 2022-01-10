@@ -1,5 +1,5 @@
 main {
-    background: hsl(0, 100%, 74%) url(images/bg-intro-mobile.png);
+    background: hsl(0, 100%, 74%) url('/images/bg-intro-mobile.png');
     width: 375px;
 }
 
@@ -140,20 +140,21 @@ main {
     display: block;
 }
 
-.lName-error{
+.lName-error {
     position: absolute;
     left: 61px;
     top: 673px;
     display: block;
 }
 
-.email-error{
+.email-error {
     position: absolute;
     left: 61px;
     top: 740px;
     display: block;
 }
-.pass-error{
+
+.pass-error {
     position: absolute;
     left: 61px;
     top: 805px;
@@ -163,15 +164,14 @@ main {
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
+}
 
-  .attribution a {
+.attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
 
 @media screen and (min-width:900px) {
     main {
-        background-image: url(images/bg-intro-desktop.png);
         background: hsl(0, 100%, 74%);
         width: 100vw;
         display: flex;
@@ -180,7 +180,9 @@ main {
         padding: 68px 92px;
     }
 
+    
     .container {
+        background-image: url('/images/bg-intro-desktop.png');
         display: flex;
         padding: 0;
     }
@@ -243,20 +245,21 @@ main {
         display: block;
     }
 
-    .lName-error{
+    .lName-error {
         position: absolute;
         left: 713px;
         top: 319px;
         display: block;
     }
 
-    .email-error{
+    .email-error {
         position: absolute;
         left: 713px;
         top: 385px;
         display: block;
     }
-    .pass-error{
+
+    .pass-error {
         position: absolute;
         left: 713px;
         top: 451px;
