@@ -188,6 +188,8 @@ main {
     
     
     .container {
+        width: 1111px;
+        height: 654px;
         display: flex;
         padding: 0;
     }
