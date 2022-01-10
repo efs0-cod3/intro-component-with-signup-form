@@ -1,8 +1,8 @@
 body{
-    background: hsl(0, 100%, 74%) url(/images/bg-intro-mobile.png) no-repeat;
+    background: hsl(0, 100%, 74%) url(/images/bg-intro-mobile.png);
 }
+
 main {
-   
     width: 375px;
 }
 
@@ -175,9 +175,7 @@ main {
 
 @media screen and (min-width:900px) {
     body {
-        background: hsl(0, 100%, 74%) url(images/bg-intro-desktop.png);
-        background-repeat: no-repeat;
-        background-size: cover;
+        background: hsl(0, 100%, 74%) url(/images/bg-intro-desktop.png);
     }
     
     main {
