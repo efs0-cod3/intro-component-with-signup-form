@@ -171,7 +171,8 @@ main {
 
 @media screen and (min-width:900px) {
     main {
-        background: hsl(0, 100%, 74%) url(images/bg-intro-desktop.png);
+        background-image: url(images/bg-intro-desktop.png);
+        background: hsl(0, 100%, 74%);
         width: 100vw;
         display: flex;
         justify-content: center;
