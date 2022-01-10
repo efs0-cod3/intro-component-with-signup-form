@@ -248,28 +248,29 @@ main {
     .fName-error {
         position: absolute;
         left: 713px;
-        top: 253px;
+        top: 283px;
         display: block;
     }
 
     .lName-error {
         position: absolute;
         left: 713px;
-        top: 319px;
+        top: 348px;
         display: block;
     }
 
     .email-error {
         position: absolute;
         left: 713px;
-        top: 385px;
+        top: 415px;
         display: block;
     }
 
     .pass-error {
         position: absolute;
         left: 713px;
-        top: 451px;
+        top: 480px;
         display: block;
+    }
     }
 }
