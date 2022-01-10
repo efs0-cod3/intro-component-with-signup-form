@@ -1,5 +1,5 @@
 main {
-    background: hsl(0, 100%, 74%) url('/images/bg-intro-mobile.png');
+    background: hsl(0, 100%, 74%) url(/images/bg-intro-mobile.png);
     width: 375px;
 }
 
@@ -179,10 +179,10 @@ main {
         align-items: center;
         padding: 68px 92px;
     }
-
+    
     
     .container {
-        background-image: url('/images/bg-intro-desktop.png');
+        background-image: url(images/bg-intro-desktop.png);
         display: flex;
         padding: 0;
     }
