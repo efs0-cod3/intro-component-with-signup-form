@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/efs0-cod3/intro-component-with-signup-form)
-- Live Site URL: ()
+- Solution URL: [solution](https://github.com/efs0-cod3/intro-component-with-signup-form)
+- Live Site URL: [live](https://efs0-cod3.github.io/intro-component-with-signup-form/)
 
 ### Built with
 
